@@ -1,0 +1,24 @@
+{
+  "selected_alpha": 0.7,
+  "abs_differences": {
+    "original_nsc_rho": 0.0,
+    "ablation_rho_vs_course_row": 0.0,
+    "ablation_rho_vs_alpha0_row": 0.0,
+    "student_rho_vs_selected_row": 0.0,
+    "student_tau_vs_selected_row": 0.0
+  },
+  "max_abs_difference": 0.0,
+  "size_controlled_pairs_course_evaluator": 180,
+  "size_controlled_pairs_ours": 180,
+  "size_controlled_pairs_readme": 180,
+  "student_size_controlled_equals_ours": {
+    "concordant": true,
+    "discordant": true,
+    "score_only_ties": true,
+    "quality_only_ties": true,
+    "both_ties": true
+  },
+  "original_nsc_equals_reference_output": true,
+  "reference_original_nsc_rho": 0.9697449744974498,
+  "note": "course_evaluator_development.json also holds the evaluator's budgeted-selection output; it is not analysed in the milestone."
+}

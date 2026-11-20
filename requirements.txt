@@ -1,0 +1,2 @@
+# No third-party packages: Python 3.9+ standard library only.
+# Building the report PDF additionally needs a TeX distribution with xelatex.

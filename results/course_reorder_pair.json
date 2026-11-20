@@ -1,0 +1,29 @@
+{
+  "alpha": 0.7,
+  "rows": [
+    {
+      "d_inner": [
+        256,
+        512
+      ],
+      "original_nsc": 121.82016980401691,
+      "ablation": 121.82016980401691,
+      "ca_nsc": 116.30769856189846,
+      "position_example": 96.95795813630815
+    },
+    {
+      "d_inner": [
+        512,
+        256
+      ],
+      "original_nsc": 121.82016980401691,
+      "ablation": 121.82016980401691,
+      "ca_nsc": 116.8447000154561,
+      "position_example": 85.77229656971721
+    }
+  ],
+  "nsc_tie": true,
+  "ablation_equals_nsc": true,
+  "ca_prefers_larger_first": true,
+  "position_prefers_larger_last": true
+}

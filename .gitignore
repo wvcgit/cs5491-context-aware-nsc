@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# Course starter: course material, not redistributed (unzip it into starter/, see README)
+starter/
+nsc-starter.zip
+# Written submissions (contain personal details): submitted through Canvas, not published here
+NSC_Project_Proposal.pdf
+report/
+# Baidu Netdisk sync client markers and macOS metadata
+.*.baiduyun.uploading.cfg
+.DS_Store

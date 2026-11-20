@@ -1,0 +1,39 @@
+{
+  "seed": 5491,
+  "float_cases": 2000,
+  "exact_cases": 300,
+  "single_layer_cases": 2000,
+  "alphas": [
+    0.0,
+    0.0001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    1000.0
+  ],
+  "violations": {
+    "alpha0_not_bitwise_equal_plain_sum": 0,
+    "first_weight_not_1": 0,
+    "single_layer_changed": 0,
+    "score_increased_with_alpha": 0,
+    "weight_out_of_(0,1]": 0,
+    "weight_increased_with_depth": 0,
+    "prefix_weights_changed": 0,
+    "alpha0_not_order_invariant": 0,
+    "loss_identity_failed": 0,
+    "width_scaling_changed_weights": 0,
+    "exact_alpha0_mismatch": 0,
+    "exact_single_layer_mismatch": 0,
+    "exact_first_weight_not_1": 0
+  },
+  "total_violations": 0,
+  "max_errors": {
+    "alpha0_vs_plain_sum": 0.0,
+    "single_layer": 0.0,
+    "loss_identity_rel": 1.5134209075230803e-14,
+    "alpha0_order_rel": 0.0,
+    "width_scaling": 0.0
+  },
+  "note": "synthetic per-layer terms; real-archive checks run in evaluate.py"
+}
